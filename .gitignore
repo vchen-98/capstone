@@ -9,12 +9,6 @@ __pycache__/
 # Data
 data/
 
-<<<<<<< HEAD
-# Pickle
-pickle/*
-
-=======
->>>>>>> aa042a4c88b8b7b13b4e40b5eab345d3ffd5122d
 # Distribution / packaging
 .Python
 build/
