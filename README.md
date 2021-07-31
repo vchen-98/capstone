@@ -10,6 +10,7 @@ Goal: the goal of this project is to add informational value to the difficult-to
 
 ## Data 
 I used a Yelp Reviews Dataset from Kaggle (https://www.kaggle.com/luisfredgs/yelp-reviews-csv)
+
 To run through the technical notebook, download the dataset into a folder called data/ and next it within the data folder within another folder called smaller/
 
 The dataset contained **5,261,668 reviews**, but the majority of this project was modeled on a randomly sampled subset of 500,000 reviews for computational reasons
