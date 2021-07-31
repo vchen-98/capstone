@@ -62,4 +62,5 @@ Final Model: Validation F1 = 0.687
 |
 ├── .gitignore
 ├── README.md
-└── technical_notebook.ipynb
+├── technical_notebook.ipynb
+└── presentation_deck.pdf
