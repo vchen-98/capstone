@@ -13,7 +13,7 @@ I used a Yelp Reviews Dataset from Kaggle (https://www.kaggle.com/luisfredgs/yel
 The dataset contained **5,261,668 reviews**, but the majority of this project was modeled on a randomly sampled subset of 500,000 reviews for computational reasons
 
 Star Rating Distribution: 
-[images/stars_distribution.png]
+![](images/stars_distribution.png)
 
 5 stars: 2,253,347 reviews
 4 stars: 1,223,316 reviews
@@ -29,7 +29,7 @@ Metric: F1 Score is pretty helpful here
 
 Initially, I used three baseline models to see which would benefit most from hyperparameter tuning: 
 
-[images/baseline_models.png]
+![])images/baseline_models.png)
 
 I went with logistic regression as my model of choice, and after tuning with Grid Search, the test F1 for non-neutral reviews improved to 0.971. 
 
