@@ -41,3 +41,23 @@ I manually went through the neutral reviews in the dataset, classifying them as 
 Neutral Reviews Baseline vs. Final Model: 
 Baseline Model: Validation F1 = 0.680
 Final Model: Validation F1 = 0.687
+
+### Repo Structure
+```
+├── notebooks
+│   ├── academic_working.ipynb
+│   ├── working_notebook.ipynb
+│   └── yelp_api.ipynb
+|
+├── images
+│   ├── baseline_models.png
+│   └── stars_distribution.png
+|
+├── pickle
+|   ├── lr_classifier
+│   ├── ...
+│   └── rf_train_preds
+|
+├── .gitignore
+├── README.md
+└── technical_notebook.ipynb
