@@ -5,6 +5,7 @@ Consumer reviews has historically been one of the best ways for business owners 
 
 The Neutral Feedback Problem: generally speaking, 4 and 5 star reviews are positive consumer experiences, and the language in these reviews reflect that with highlights and recommendations to others. On the other end of the spectrum, 1 and 2 star reviews are generally negative consumer experiences, and the language in these reviews are facets of the experience that consumers think should be improved. This can more easily be thought of as: 4-5 star reviews - highlights, and 1-2 star reviews - improvements needed. However, in the middle ground, a place of difficult interpretability, are the neutral 3 star reviews. These reviews typically have a middle ground between "highlights" and "improvements needed", thus making it difficult to quickly glean any information, unless a human manually goes through and classifies the language in the context of the review. 
 
+#### Business Goal
 Goal: the goal of this project is to add informational value to the difficult-to-interpret reviews by classifying them as positive or negative, hopefully offering a quick way for small business owners to gain value from these neutral reviews. 
 
 ## Data 
