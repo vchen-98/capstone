@@ -19,9 +19,13 @@ Star Rating Distribution:
 ![](images/stars_distribution.png)
 
 5 stars: 2,253,347 reviews
+
 4 stars: 1,223,316 reviews
+
 3 stars: 615,481 reviews
+
 2 stars: 438,161 reviews
+
 1 star: 731,363 reviews
 
 ## Data Preparation
