@@ -42,7 +42,7 @@ I manually went through the neutral reviews in the dataset, classifying them as 
 
 Neutral Reviews Baseline vs. Final Model: 
 Baseline Model: Validation F1 = 0.680
-Final Model: Validation F1 = 0.687
+Final Model: Validation F1 = 0.7432
 
 ### Repo Structure
 ```
