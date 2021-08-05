@@ -45,7 +45,9 @@ I went with logistic regression as my model of choice, and after tuning with Gri
 I manually went through the neutral reviews in the dataset, classifying them as positive or negative experiences. What ended up being used was aproximately 150 neutral reviews in the training set (I know, huge class imbalance, but I'm working on it!) and about 50 neutral reviews as a separate validation set. 
 
 Neutral Reviews Baseline vs. Final Model: 
+
 Baseline Model: Validation F1 = 0.680
+
 Final Model: Validation F1 = 0.7432
 
 ### Repo Structure
