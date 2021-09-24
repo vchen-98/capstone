@@ -39,7 +39,7 @@ def main():
             st.text('Original Test ::\n{}'.format(review_text))
             vect_text = review_cv.transform([review_text]).toarray()
             if model_choice == 'LR': 
-                predictor = load_prediction_models('pickle/lr_classifier_tuned.pkl')
+                predictor = load_prediction_models('pickle/lr_classifier_tuned')
                 prediction = predictor.predict(vect_text)
                 st.write(prediction)
         
