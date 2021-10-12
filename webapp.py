@@ -19,6 +19,12 @@ def load_prediction_models(model_file):
     loaded_models = joblib.load(open(os.path.join(model_file), 'rb'))
     return loaded_models
 
+def get_keys(val, my_dict):
+    for key, value in my_dict.items():
+        if val == value: 
+            return key
+
+# main classifier function
 def main():
     '''Review Classifier App with Streamlit'''
     st.title('Neutral Review Classifier ML App')
@@ -42,6 +48,8 @@ def main():
                 predictor = load_prediction_models('pickle/lr_classifier_tuned')
                 prediction = predictor.predict(vect_text)
                 st.write(prediction)
+                final_result = get_keys(prediction, prediction_labels)
+                st.success(final_result)
         
         # 19:05 video timestamp
         
